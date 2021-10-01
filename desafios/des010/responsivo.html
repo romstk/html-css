@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Responsividade</title>
+
+
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        
+
+        main {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+
+            margin:auto; /*Centraliza o conteúdo*/
+            max-width: 800px;
+            min-width: 320px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis neque aut iure eos itaque quam ipsum rerum. Eaque ad, impedit repellendus in tenetur, sint, laborum eos doloribus quo deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ad possimus nihil! Voluptas veritatis quos voluptatibus dicta impedit, in dolore repellendus ex quibusdam necessitatibus expedita libero, dolorum aliquam officia repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus impedit ullam, porro, ex nam omnis aut voluptatibus mollitia distinctio voluptate temporibus at praesentium fugiat quae eos fugit repudiandae quam doloribus?
+        </p>
+        <picture>
+
+            /*até atingir o tamanho máximo de 800px usa a imagem contida na tag source depois vaia para img*/
+            <source media="(max-width: 800px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis neque aut iure eos itaque quam ipsum rerum. Eaque ad, impedit repellendus in tenetur, sint, laborum eos doloribus quo deleniti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ad possimus nihil! Voluptas veritatis quos voluptatibus dicta impedit, in dolore repellendus ex quibusdam necessitatibus expedita libero, dolorum aliquam officia repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus impedit ullam, porro, ex nam omnis aut voluptatibus mollitia distinctio voluptate temporibus at praesentium fugiat quae eos fugit repudiandae quam doloribus?
+        </p>
+
+
+    </main>
+
+    
+</body>
+</html>
